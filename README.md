@@ -42,7 +42,7 @@ Variables de estado: x1 = ϴL   , x2 = dϴL/dt  ,  x3 = ϴm   , x4 = dϴm/dt
 ## LABORATORIO 4: Diseño de un controlador mediante realimentación de estados.
 Se muestra el diagrama de bloques para el control tipo servosistema, el cual permite el seguimiento de una referencia a la posición angular de la carga ϴL.  Se ha adicionado un integrador debido a que la planta no posee integrador que permita tener error estacionario cero a una entrada de referencia escalón. 
 
-![Alt text](lab4.jpg "lab4") 
+![Alt text](lab4.jpg "lab4")  
 
 1.	Mediante los comandos de MATLAB averigüe las características de la planta, como controlabilidad, estabilidad y si tiene integrador. Para el cálculo de las ganancias de las realimentaciones y del integrador, considere que se desea una respuesta transitoria con mínima oscilación y un tiempo de establecimiento de aproximadamente 4 segundos.
 
