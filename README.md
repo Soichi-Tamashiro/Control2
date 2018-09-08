@@ -4,7 +4,7 @@
 ## ASIGNATURA: INGENIERÍA DE CONTROL II – LABORATORIO 2-3-4 2018-2
 ## MODELACIÓN, ANÁLISIS Y DISEÑO DE UN SISTEMA DE CONTROL DE POSICIÓN MEDIANTE VARIABLES DE ESTADO*
 Considere el sistema basado en un motor DC que mueve una carga que se muestra en la figura (a). La constante KL representa la constante de elasticidad de la cinta y BL denota el coeficiente de fricción viscosa entre la cinta y las poleas.
- 
+![Alt text](lab2.jpg "lab2")
 Los otros parámetros del sistema son:
 Km = constante de torque del motor =  10 oz-in/A 
 Kb = constante de fcem del motor = 0.07 V/rad/sec
