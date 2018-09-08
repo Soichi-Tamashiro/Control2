@@ -4,7 +4,9 @@
 ## ASIGNATURA: INGENIERÍA DE CONTROL II – LABORATORIO 2-3-4 2018-2
 ## MODELACIÓN, ANÁLISIS Y DISEÑO DE UN SISTEMA DE CONTROL DE POSICIÓN MEDIANTE VARIABLES DE ESTADO*
 Considere el sistema basado en un motor DC que mueve una carga que se muestra en la figura (a). La constante KL representa la constante de elasticidad de la cinta y BL denota el coeficiente de fricción viscosa entre la cinta y las poleas.
+
 ![Alt text](lab2.jpg "lab2")
+
 Los otros parámetros del sistema son:
 Km = constante de torque del motor =  10 oz-in/A 
 Kb = constante de fcem del motor = 0.07 V/rad/sec
@@ -30,6 +32,9 @@ Variables de estado: x1 = ϴL   , x2 = dϴL/dt  ,  x3 = ϴm   , x4 = dϴm/dt
 
 ## LABORATORIO 3: Análisis con un controlador P
 1.	El control de la posición angular de la carga se va a realizar en lazo cerrado tal como se muestra en la figura (b), siendo el controlador proporcional: GC(s) = KC y la ganancia del sensor de posición Kf = 1 V/rad.
+
+![Alt text](lab3.jpg "lab3")
+
  Determine el máximo valor de la ganancia KC antes que el sistema en lazo cerrado sea oscilatorio.
 2. Determine el valor de KC tal que la respuesta del sistema a una entrada de referencia R: escalón unitario tenga un máximo sobreimpulso menor al 5%.  ¿Cuánto es el tiempo de establecimiento?. ¿Existe error estacionario?.
 3. Con el valor de KC obtenido en el punto anterior, obtenga la gráfica de la respuesta del sistema a una entrada de referencia R: rampa unitaria. ¿Existe error estacionario?.
@@ -37,17 +42,7 @@ Variables de estado: x1 = ϴL   , x2 = dϴL/dt  ,  x3 = ϴm   , x4 = dϴm/dt
 ## LABORATORIO 4: Diseño de un controlador mediante realimentación de estados.
 Se muestra el diagrama de bloques para el control tipo servosistema, el cual permite el seguimiento de una referencia a la posición angular de la carga ϴL.  Se ha adicionado un integrador debido a que la planta no posee integrador que permita tener error estacionario cero a una entrada de referencia escalón. 
 
-
-
-
-
-
-
-
-
-
-
-
+![Alt text](lab4.jpg "lab4")
 
 1.	Mediante los comandos de MATLAB averigüe las características de la planta, como controlabilidad, estabilidad y si tiene integrador. Para el cálculo de las ganancias de las realimentaciones y del integrador, considere que se desea una respuesta transitoria con mínima oscilación y un tiempo de establecimiento de aproximadamente 4 segundos.
 
